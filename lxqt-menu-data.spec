@@ -1,14 +1,14 @@
 Summary:	Menu files for LXQt Panel, Configuration Center and PCManFM-Qt/libfm-qt
 Summary(pl.UTF-8):	Pliki menu dla Panelu LXQt, Centrum Konfiguracji i PCManFM-Qt/libfm-qt
 Name:		lxqt-menu-data
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 License:	LGPL-2.1-or-later
 URL:		https://lxqt-project.org/
 Source0:	https://github.com/lxqt/lxqt-menu-data/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	4f0181b7ce8db0682687a3686710fcdc
+# Source0-md5:	bfb146f255c3c670f2b2c56c2515ce3c
 BuildRequires:	cmake >= 3.18.0
-BuildRequires:	lxqt-build-tools
+BuildRequires:	lxqt-build-tools >= 2.4.0
 BuildRequires:	perl-base
 BuildArch:	noarch
 
